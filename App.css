@@ -1,0 +1,27 @@
+/* src/App.css */
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.grid-page {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.grid-item {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
